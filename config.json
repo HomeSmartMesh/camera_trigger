@@ -1,0 +1,20 @@
+{  
+    "mqtt":{
+        "host":"localhost",
+        "port":1883,
+        "keepalive":60,
+        "client_id":"dvr_node",
+        "subscriptions":[  
+            "Agent/cpu",
+            "Agent/cameras/camera garage/motion"
+         ],
+        "publish" :false,
+        "subscribe" :true
+    },
+    "log":{
+        "logfile":"dvr log (date).log",
+        "exceptions_log_file":"dvrexceptions.log",
+        "share":"",
+        "level":"verbose"
+    }
+}

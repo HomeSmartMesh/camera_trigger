@@ -1,0 +1,24 @@
+{
+  "name": "camera_trigger",
+  "version": "1.0.0",
+  "description": "switch wemo socket on when camera detects motion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HomeSmartMesh/camera_trigger.git"
+  },
+  "author": "wassfila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HomeSmartMesh/camera_trigger/issues"
+  },
+  "homepage": "https://github.com/HomeSmartMesh/camera_trigger#readme",
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "wemo-client": "^0.15.0",
+    "winston": "^3.2.1"
+  }
+}
